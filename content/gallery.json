@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "image": "/assets/img/gallery-1.svg",
+      "caption": "Placeholder: Collision repair — replace with a before/after set."
+    },
+    {
+      "image": "/assets/img/gallery-2.svg",
+      "caption": "Placeholder: Panel repair and refinish — add your shop photos."
+    },
+    {
+      "image": "/assets/img/gallery-3.svg",
+      "caption": "Placeholder: Mechanical service highlight — optional."
+    },
+    {
+      "image": "/assets/img/gallery-4.svg",
+      "caption": "Placeholder: Detailing/finish work — replace with real photos."
+    },
+    {
+      "image": "/assets/img/gallery-5.svg",
+      "caption": "Placeholder: Another before/after set — add captions."
+    },
+    {
+      "image": "/assets/img/gallery-6.svg",
+      "caption": "Placeholder: Shop/team photo works great here too."
+    }
+  ]
+}

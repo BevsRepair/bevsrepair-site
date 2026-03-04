@@ -1,0 +1,21 @@
+{
+  "businessName": "Bev’s Repair Inc.",
+  "tagline": "MPI Accredited • Collision • Mechanical • Glass",
+  "heroTitle": "Professional repairs done right.",
+  "heroSubtitle": "Collision, mechanical, glass, and refinishing — quality work with clear communication.",
+  "phone": "204-242-2318",
+  "email": "bevsrepair@gmail.com",
+  "address": "13025 Rd 48W",
+  "city": "Manitou, MB R0G 1G0",
+  "mapsUrl": "https://www.google.com/maps?q=13025%20Rd%2048W%20Manitou%20MB",
+  "mapsEmbedUrl": "https://www.google.com/maps?q=13025%20Rd%2048W%20Manitou%20MB&output=embed",
+  "hours": {
+    "Mon": "8:30–5:00",
+    "Tue": "8:30–5:00",
+    "Wed": "8:30–5:00",
+    "Thu": "8:30–5:00",
+    "Fri": "8:30–5:00",
+    "Sat": "Closed",
+    "Sun": "Closed"
+  }
+}

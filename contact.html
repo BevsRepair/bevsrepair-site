@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact | Bev’s Repair Inc.</title>
+  <meta name="description" content="Contact Bev’s Repair Inc. — call, email, or request a quote." />
+  <link rel="icon" href="/assets/img/logo-placeholder.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/">
+      <img src="/assets/img/logo-placeholder.svg" alt="Bev’s Repair Logo" />
+      <div>
+        <div class="brand-title" id="brandTitle">Bev’s Repair Inc.</div>
+        <div class="brand-sub" id="brandSub">MPI Accredited • Collision • Mechanical • Glass</div>
+      </div>
+    </a>
+    <nav>
+      <a href="/services.html">Services</a>
+      <a href="/gallery.html">Gallery</a>
+      <a href="/reviews.html">Reviews</a>
+      <a href="/contact.html">Contact</a>
+      <a class="btn" data-directions target="_blank" rel="noreferrer">Directions</a>
+      <a class="btn primary" data-call>Call</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="page-title">
+      <h1>Contact</h1>
+      <div class="badge">Fast replies during business hours</div>
+    </div>
+
+    <section class="grid section">
+      <div class="card">
+        <h2>Request a quote</h2>
+        <div class="small">Send your info and we’ll follow up. (This form works on Netlify hosting.)</div>
+
+        <form name="quote" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thanks.html">
+          <input type="hidden" name="form-name" value="quote" />
+          <p style="display:none">
+            <label>Don’t fill this out: <input name="bot-field" /></label>
+          </p>
+
+          <div class="form-row">
+            <div>
+              <label for="name">Name</label>
+              <input id="name" name="name" required />
+            </div>
+            <div>
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div>
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" />
+            </div>
+            <div>
+              <label for="vehicle">Vehicle (Year/Make/Model)</label>
+              <input id="vehicle" name="vehicle" />
+            </div>
+          </div>
+
+          <label for="message">What do you need done?</label>
+          <textarea id="message" name="message" placeholder="Describe the issue, and include any deadlines."></textarea>
+
+          <div class="cta" style="margin-top:12px">
+            <button class="btn primary" type="submit">Send Request</button>
+            <a class="btn" data-call>Call instead</a>
+          </div>
+        </form>
+      </div>
+
+      <div class="card">
+        <h2>Contact details</h2>
+        <div id="contactDetails"></div>
+        <hr />
+        <iframe id="mapFrame" title="Map" width="100%" height="260" style="border:0;border-radius:16px"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="cta" style="margin-top:12px">
+          <a class="btn" data-directions target="_blank" rel="noreferrer">Open in Google Maps</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    (async () => { try { await initContact(); } catch (e) { console.error(e); } })();
+  </script>
+
+  <footer class="footer">
+    <div>© <span id="year"></span> Bev’s Repair Inc.</div>
+    <div class="small">Fast, professional site — easy to update.</div>
+  </footer>
+  <script src="/assets/js/site.js"></script>
+</body>
+</html>

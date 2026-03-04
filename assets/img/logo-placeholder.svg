@@ -1,0 +1,13 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="220" viewBox="0 0 220 220">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d7b25a"/>
+      <stop offset="1" stop-color="#4aa3ff"/>
+    </linearGradient>
+  </defs>
+  <rect x="18" y="18" width="184" height="184" rx="34" fill="rgba(255,255,255,0.05)" stroke="rgba(35,48,74,1)" stroke-width="4"/>
+  <circle cx="110" cy="110" r="54" fill="none" stroke="url(#g)" stroke-width="10"/>
+  <path d="M110 66v22M110 132v22M66 110h22M132 110h22" stroke="#e8eefc" stroke-width="8" stroke-linecap="round"/>
+  <text x="110" y="198" text-anchor="middle" font-family="system-ui,Segoe UI,Roboto,Arial" font-size="14" fill="#a9b3c9">LOGO PLACEHOLDER</text>
+</svg>

@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "name": "Yevhenii Fit",
+      "stars": 5,
+      "source": "Google (via Birdeye)",
+      "text": "Outstanding work across the shop — strong welding, excellent paint finish, and great coordination. The result looked like new."
+    },
+    {
+      "name": "Glenn Braun",
+      "stars": 5,
+      "source": "Google (via Birdeye)",
+      "text": "Excellent, qualified shop. Professional service and a solid repair experience."
+    },
+    {
+      "name": "Myles Suderman",
+      "stars": 5,
+      "source": "Google (via Birdeye)",
+      "text": "Consistently excellent work over the years — I’ve never been disappointed with the repairs."
+    },
+    {
+      "name": "Branson Grenier",
+      "stars": 5,
+      "source": "Google (via Birdeye)",
+      "text": "Great service and friendly staff. Would recommend to anyone needing autobody work."
+    },
+    {
+      "name": "Local Customer",
+      "stars": 5,
+      "source": "Google",
+      "text": "Clear communication, good turnaround, and the vehicle came back looking sharp."
+    }
+  ]
+}
