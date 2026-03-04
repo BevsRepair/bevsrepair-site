@@ -108,12 +108,14 @@ input:focus,textarea:focus{border-color:rgba(215,178,90,.75);box-shadow:0 0 0 4p
   .hero h1{font-size:38px}
   .form-row{grid-template-columns:1fr}
 }
-.bullets {
+u1.bullets {
   margin-top: 10px;
+  padding-left: 18px
   columns :2;
   column-gap: 60px;
+  list-style: disc;
 }
-.bullets li {
+u1.bullets li {
   margin-bottom: 6px;
   break-inside: avoid;
 }
