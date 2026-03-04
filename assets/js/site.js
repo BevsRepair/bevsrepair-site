@@ -64,7 +64,7 @@ async function initHome(){
 
 async function initServices(){
   await initBase();
-  const services = await loadJSON("/content/services.json");
+  const services = await loadJSON("content/services.json");
 
   setText("servicesIntro", services.intro || "");
 
@@ -80,7 +80,7 @@ async function initServices(){
 
 async function initGallery(){
   await initBase();
-  const gallery = await loadJSON("/content/gallery.json");
+  const gallery = await loadJSON("content/gallery.json");
   const wrap = document.getElementById("galleryTiles");
   if (wrap) wrap.innerHTML = gallery.items.map(it => `
     <div class="tile">
@@ -92,7 +92,7 @@ async function initGallery(){
 
 async function initReviews(){
   await initBase();
-  const reviews = await loadJSON("/content/reviews.json");
+  const reviews = await loadJSON("content/reviews.json");
   const wrap = document.getElementById("reviewGrid");
   if (wrap) wrap.innerHTML = reviews.items.map(r => `
     <div class="review">
