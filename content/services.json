@@ -1,17 +1,14 @@
 {
   "intro": "From MPI-accredited collision repair to mechanical work and glass, our team focuses on clean repairs, proper procedures, and quality control.",
   "highlights": [
-  "Collision repair (MPI)",
-  "Autobody Repair",
-  "Frame Straightening",
-  "Paint & Refinishing",
-  "Mechanical Repair",
-  "Auto Glass Replacement",
-  "Diagnostics & ADAS Scanning"
-]
-
-]
-  ],
+    "Collision repair (MPI)",
+    "Autobody Repair",
+    "Frame Straightening",
+    "Paint & Refinishing",
+    "Mechanical Repair",
+    "Auto Glass Replacement",
+    "Diagnostics & ADAS Scanning"
+],
   "cards": [
      {
     "title": "Collision Repair (MPI)",
