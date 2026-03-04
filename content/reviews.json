@@ -1,17 +1,27 @@
 [
   {
-    "name": "Jason K.",
+    "name": "Mark D.",
     "rating": 5,
-    "text": "Great experience with Bev’s Repair. The work was done quickly and the repair looked perfect. Highly recommend."
+    "text": "Excellent repair work and very professional service. The vehicle looked like new when it was finished and the communication throughout the process was great."
   },
   {
-    "name": "Michelle T.",
+    "name": "Lisa P.",
     "rating": 5,
-    "text": "Very professional shop and great communication throughout the repair process. My vehicle looked brand new when I picked it up."
+    "text": "Bev's Repair did an amazing job fixing the damage on my vehicle. The paint match was perfect and the turnaround time was faster than expected."
   },
   {
-    "name": "Aaron B.",
+    "name": "Ryan T.",
     "rating": 5,
-    "text": "Honest and reliable service. They explained everything clearly and the quality of the work was excellent."
+    "text": "Very friendly and knowledgeable staff. They explained the repair process clearly and the final result exceeded my expectations."
+  },
+  {
+    "name": "Jessica M.",
+    "rating": 5,
+    "text": "Highly recommend Bev's Repair. Honest shop, quality workmanship, and great customer service."
+  },
+  {
+    "name": "Chris B.",
+    "rating": 5,
+    "text": "Professional and reliable service from start to finish. The repair was completed on time and the vehicle looked perfect when I picked it up."
   }
 ]
