@@ -109,10 +109,11 @@ input:focus,textarea:focus{border-color:rgba(215,178,90,.75);box-shadow:0 0 0 4p
   .form-row{grid-template-columns:1fr}
 }
 .bullets {
-  margin-top: 12px;
+  margin-top: 10px;
   columns :2;
-  column-gap: 40px;
+  column-gap: 60px;
 }
 .bullets li {
   margin-bottom: 6px;
+  break-inside: avoid;
 }
