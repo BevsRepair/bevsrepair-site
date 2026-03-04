@@ -13,33 +13,33 @@
 ]
   ],
   "cards": [
-    {
-      "cards": [
-  {
+     {
     "title": "Collision Repair (MPI)",
-    "desc": "From minor dents to major repairs — handled start to finish.",
-    "items": ["Estimates & MPI claims support", "Panel replacement & repair", "Structural/frame work"]
+    "description": "MPI accredited collision repairs restoring vehicles to manufacturer standards after accidents or damage."
+  },
+  {
+    "title": "Autobody Repair",
+    "description": "Professional dent repair, panel replacement, and structural body repairs."
+  },
+  {
+    "title": "Frame Straightening",
+    "description": "Precision frame and structural alignment using professional frame straightening equipment."
+  },
+  {
+    "title": "Paint & Refinishing",
+    "description": "High-quality paint matching and refinishing for seamless factory-quality results."
+  },
+  {
+    "title": "Mechanical Repair",
+    "description": "Diagnostics and mechanical repairs including engine, suspension, and general vehicle maintenance."
+  },
+  {
+    "title": "Auto Glass Replacement",
+    "description": "Windshield and automotive glass replacement with proper sealing and installation."
+  },
+  {
+    "title": "Diagnostics & ADAS Scanning",
+    "description": "Pre-scan and post-scan diagnostics including ADAS system calibration after repairs."
   }
 ]
-      ]
-    },
-    {
-      "title": "Mechanical",
-      "desc": "Repairs, maintenance, and diagnostics to keep your vehicle safe and reliable.",
-      "items": [
-        "General mechanical repairs",
-        "Fluid services & maintenance",
-        "Diagnostics support"
-      ]
-    },
-    {
-      "title": "Glass & Extras",
-      "desc": "Windshield and automotive glass work, plus finishing touches.",
-      "items": [
-        "Windshield replacement",
-        "Automotive glass R&R",
-        "Final polish/finish options"
-      ]
-    }
-  ]
-}
+  
