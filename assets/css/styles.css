@@ -108,8 +108,6 @@ input:focus,textarea:focus{border-color:rgba(215,178,90,.75);box-shadow:0 0 0 4p
   .hero h1{font-size:38px}
   .form-row{grid-template-columns:1fr}
 }
-/* ===== Bev's Repair header logo + brand styling ===== */
-
 .site-logo{
   height: 80px;   
   width: auto;
@@ -119,4 +117,47 @@ input:focus,textarea:focus{border-color:rgba(215,178,90,.75);box-shadow:0 0 0 4p
 
 @media (max-width: 700px){
   .site-logo{ height: 56px; } 
+}
+header{
+  padding: 14px 0;
+}
+
+header .container,
+.navbar,
+.header-inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+.brand,
+.logo-wrap,
+.site-brand{
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+:root{
+  --brand-gold: #D6B15E;
+  --brand-gold-dark: #B8943E;
+}
+a:hover{
+  color: var(--brand-gold);
+}
+
+.button-primary,
+.btn-primary{
+  background: var(--brand-gold);
+  border-color: var(--brand-gold);
+  color: #111;
+}
+
+.button-primary:hover,
+.btn-primary:hover{
+  background: var(--brand-gold-dark);
+  border-color: var(--brand-gold-dark);
+}
+nav a:hover,
+nav a.active{
+  border-bottom: 2px solid var(--brand-gold);
 }
