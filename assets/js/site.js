@@ -72,7 +72,7 @@ async function initServices(){
     const items=
       Array.isArray(services.highlights) ?
       services.highlights : [];
-        h1.innerHTML = items.map(s => '<li>${s}</li>').join("");
+        h1.innerHTML = items.map(s => `<li>${s}</li>`).join("");
 }
 
   const wrap = document.getElementById("servicesCards");
