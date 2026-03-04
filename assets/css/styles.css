@@ -109,8 +109,8 @@ input:focus,textarea:focus{border-color:rgba(215,178,90,.75);box-shadow:0 0 0 4p
   .form-row{grid-template-columns:1fr}
 }
 .site-logo{
-  height: 80px;   
-  width: auto;
+  height: 120px;   
+  width: 100px;
   display: block;
   image-rendering: -webkit-optimize-contrast; 
 }
