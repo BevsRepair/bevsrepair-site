@@ -8,35 +8,14 @@
     "Mechanical Repair",
     "Auto Glass Replacement",
     "Diagnostics & ADAS Scanning"
-],
+  ],
   "cards": [
-     {
-    "title": "Collision Repair (MPI)",
-    "desc": "MPI accredited collision repairs restoring vehicles to manufacturer standards after accidents or damage."
-  },
-  {
-    "title": "Autobody Repair",
-    "desc": "Professional dent repair, panel replacement, and structural body repairs."
-  },
-  {
-    "title": "Frame Straightening",
-    "desc": "Precision frame and structural alignment using professional frame straightening equipment."
-  },
-  {
-    "title": "Paint & Refinishing",
-    "desc": "High-quality paint matching and refinishing for seamless factory-quality results."
-  },
-  {
-    "title": "Mechanical Repair",
-    "desc": "Diagnostics and mechanical repairs including engine, suspension, and general vehicle maintenance."
-  },
-  {
-    "title": "Auto Glass Replacement",
-    "desc": "Windshield and automotive glass replacement with proper sealing and installation."
-  },
-  {
-    "title": "Diagnostics & ADAS Scanning",
-    "desc": "Pre-scan and post-scan diagnostics including ADAS system calibration after repairs."
-  }
-]
-  
+    { "title": "Collision Repair (MPI)", "desc": "MPI accredited collision repairs restoring vehicles to manufacturer standards after accidents or damage." },
+    { "title": "Autobody Repair", "desc": "Professional dent repair, panel replacement, and structural body repairs." },
+    { "title": "Frame Straightening", "desc": "Precision frame and structural alignment using professional frame straightening equipment." },
+    { "title": "Paint & Refinishing", "desc": "High-quality paint matching and refinishing for seamless factory-quality results." },
+    { "title": "Mechanical Repair", "desc": "Diagnostics and mechanical repairs including engine, suspension, and general vehicle maintenance." },
+    { "title": "Auto Glass Replacement", "desc": "Windshield and automotive glass replacement with proper sealing and installation." },
+    { "title": "Diagnostics & ADAS Scanning", "desc": "Pre-scan and post-scan diagnostics including ADAS system calibration after repairs." }
+  ]
+}
