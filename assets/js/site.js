@@ -67,6 +67,13 @@ async function initServices(){
   const services = await loadJSON("content/services.json");
 
   setText("servicesIntro", services.intro || "");
+  const h1 = document.getElementById("servicesHighlights");
+  if(h1) {
+    const items=
+      Array.isArray(services.highlights) ?
+      services.highlights : [];
+        h1.innerHTML = items.map(s => '<li>${s}</li>'.join("");
+}
 
   const wrap = document.getElementById("servicesCards");
   if (wrap) wrap.innerHTML = services.cards.map(c => `
