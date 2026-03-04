@@ -1,20 +1,22 @@
 {
   "intro": "From MPI-accredited collision repair to mechanical work and glass, our team focuses on clean repairs, proper procedures, and quality control.",
   "highlights": [
-    "MPI-accredited collision repair (body + refinish)",
-    "Mechanical repairs and maintenance",
-    "Automotive glass replacement",
-    "Diagnostics and scan support",
-    "Paint and finishing work"
+  "Collision repair (MPI)",
+  "Mechanical repairs & diagnostics",
+  "Windshield & automotive glass",
+  "Refinish & paint work",
+  "Frame & structural repair"
+]
   ],
   "cards": [
     {
-      "title": "Collision & Autobody",
-      "desc": "Structural and cosmetic repairs — panel replacement, dent repair, refinishing, and quality checks.",
-      "items": [
-        "Dent & panel repair",
-        "Refinish & paint",
-        "Quality control and detailing"
+      "cards": [
+  {
+    "title": "Collision Repair (MPI)",
+    "desc": "From minor dents to major repairs — handled start to finish.",
+    "items": ["Estimates & MPI claims support", "Panel replacement & repair", "Structural/frame work"]
+  }
+]
       ]
     },
     {
