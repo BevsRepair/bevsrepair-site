@@ -15,31 +15,31 @@
   "cards": [
      {
     "title": "Collision Repair (MPI)",
-    "description": "MPI accredited collision repairs restoring vehicles to manufacturer standards after accidents or damage."
+    "desc": "MPI accredited collision repairs restoring vehicles to manufacturer standards after accidents or damage."
   },
   {
     "title": "Autobody Repair",
-    "description": "Professional dent repair, panel replacement, and structural body repairs."
+    "desc": "Professional dent repair, panel replacement, and structural body repairs."
   },
   {
     "title": "Frame Straightening",
-    "description": "Precision frame and structural alignment using professional frame straightening equipment."
+    "desc": "Precision frame and structural alignment using professional frame straightening equipment."
   },
   {
     "title": "Paint & Refinishing",
-    "description": "High-quality paint matching and refinishing for seamless factory-quality results."
+    "desc": "High-quality paint matching and refinishing for seamless factory-quality results."
   },
   {
     "title": "Mechanical Repair",
-    "description": "Diagnostics and mechanical repairs including engine, suspension, and general vehicle maintenance."
+    "desc": "Diagnostics and mechanical repairs including engine, suspension, and general vehicle maintenance."
   },
   {
     "title": "Auto Glass Replacement",
-    "description": "Windshield and automotive glass replacement with proper sealing and installation."
+    "desc": "Windshield and automotive glass replacement with proper sealing and installation."
   },
   {
     "title": "Diagnostics & ADAS Scanning",
-    "description": "Pre-scan and post-scan diagnostics including ADAS system calibration after repairs."
+    "desc": "Pre-scan and post-scan diagnostics including ADAS system calibration after repairs."
   }
 ]
   
