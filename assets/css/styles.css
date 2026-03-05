@@ -119,3 +119,29 @@ u1.bullets li {
   margin-bottom: 6px;
   break-inside: avoid;
 }
+/* Services highlight list */
+ul.bullets {
+  margin-top: 10px;
+  padding-left: 18px;
+  list-style: disc;
+}
+
+ul.bullets li {
+  margin: 6px 0;
+  break-inside: avoid;
+}
+
+/* 2 columns on desktop */
+@media (min-width: 800px) {
+  ul.bullets {
+    columns: 2;
+    column-gap: 80px;
+  }
+}
+
+/* 1 column on small screens */
+@media (max-width: 799px) {
+  ul.bullets {
+    columns: 1;
+  }
+}
