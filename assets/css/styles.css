@@ -204,10 +204,10 @@ ul.bullets li {
 }
 .hero h1{
   position:relative;
-  font-size:60px;
-  line-height:1.05;
-  letter-spacing:-1.2px;
-  max-width:8.5ch;
+  font-size:644px;
+  line-height:1.1;
+  letter-spacing:-1.1px;
+  max-width:16ch;
   margin:10px 0 16px;
 }
 .hero h1::after{
@@ -232,8 +232,8 @@ ul.bullets li {
 }
 @media (max-width:980px){
   .hero h1{
-    font-size:46px;
-    max-width:10ch;
+    font-size:38px;
+    max-width:16ch;
   }
   #heroSubtitle{
     font-size:17px;
@@ -241,9 +241,9 @@ ul.bullets li {
 }
 @media (max-width:640px){
   .hero h1{
-    font-size:38px;
-    max-width:11ch;
-    letter-spacing:-0.6px;
+    font-size:30px;
+    max-width:16ch;
+    letter-spacing:-0.3px;
   }
   #heroSubtitle{
     font-size:16px;
