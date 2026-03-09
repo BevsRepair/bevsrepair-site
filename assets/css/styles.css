@@ -159,7 +159,8 @@ ul.bullets li {
   background: rgba(215,178,90,0.12);
   border: 1px solid var(--line);
   border-radius: 999px;
-  padding: 6px 12px;
-  font-size: 13px;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: 500;
   white-space: nowrap;
 }
