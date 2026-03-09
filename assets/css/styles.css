@@ -145,3 +145,21 @@ ul.bullets li {
     columns: 1;
   }
 }
+/* Services highlight pills */
+.bullets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.bullets li {
+  background: rgba(215,178,90,0.12);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-size: 13px;
+  white-space: nowrap;
+}
