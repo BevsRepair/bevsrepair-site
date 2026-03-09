@@ -250,4 +250,17 @@ ul.bullets li {
     line-height:1.5;
   }
 }
-    
+.meta-strip{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin:16px 0 10px;
+}
+.meta-strip span{
+  padding:7px 12px;
+  border:1px solid var(--line);
+  border-radius:999px;
+  background:rgba(255,255,255,.05);
+  font-size:13px;
+  color:var(--text);
+}
