@@ -267,19 +267,19 @@ ul.bullets li {
 .home-services-grid{
   display:grid;
   grid-template-columns: repeat(2,minmax(0, 1fr));
-  gap:14px;
-  margin: 18px 0 8px
+  gap:16px;
+  margin: 18px 0 20px
   max-width:900px;
 }
 .mini-card{
-  background:rgba(255,255,255,.04);
+  background:rgba(255,255,255,.05);
   border:1px solid(var--line);
-  border-radius:18px;
-  padding:16px;
+  border-radius:16px;
+  padding:18px;
 }
 .mini-card h3{
-  margin:0 0 8px;
-  font-size 18px;
+  margin:0 0 6px;
+  font-size: 17px;
 }
 .mini-card p{
   margin:0;
