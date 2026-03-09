@@ -1,7 +1,7 @@
 
 :root{
-  --bg:#151c28; --card:#121726; --text:#e8eefc; --muted:#a9b3c9; --line:#23304a;
-  --accent:#d7b25a; --accent2:#4aa3ff;
+  --bg:#1A1F28; --card:#222833; --text:#F1F3F7; --muted:#A7B0C0; --line:#343D4C;
+  --accent:#E1B458; --accent2:#B1732B;
 }
 *{box-sizing:border-box}
 html,body{height:100%}
