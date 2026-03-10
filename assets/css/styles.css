@@ -329,3 +329,27 @@ ul.bullets li {
   line-height:1.5;
   margin-bottom:14px;
 }
+.services-vehicle-layout{
+display:grid;
+grid-template-columns: 2fr 1fr;
+gap:30px;
+align-items:start;
+margin-top:30px;
+}
+
+.featured-vehicle{
+max-width:100%;
+}
+
+.featured-vehicle img{
+height:260px;
+object-fit:cover;
+}
+
+@media (max-width: 900px){
+
+.services-vehicle-layout{
+grid-template-columns:1fr;
+}
+
+}
