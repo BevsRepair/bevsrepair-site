@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Vehicles | Bev’s Repair Inc.</title>
+  <meta name="description" content="Vehicles for sale at Bev’s Repair Inc. in Manitou, MB." />
+  <link rel="icon" href="assets/img/logo.png" type="image/png" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/">
+      <img src="assets/img/logo.png" alt="Bev’s Repair Logo" />
+      <div>
+        <div class="brand-title">Bev’s Repair Inc.</div>
+        <div class="brand-sub">MPI Accredited • Collision • Mechanical • Glass</div>
+      </div>
+    </a>
+
+    <nav>
+      <a href="/">Home</a>
+      <a href="services.html">Services</a>
+      <a href="vehicles.html">Vehicles</a>
+      <a href="parts.html">Parts</a>
+      <a href="accessories.html">Accessories</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="reviews.html">Reviews</a>
+      <a href="contact.html">Contact</a>
+      <a class="btn" href="https://maps.google.com/?q=13025+Rd+48W,+Manitou,+MB" target="_blank" rel="noreferrer">Directions</a>
+      <a class="btn primary" href="tel:2042422318">Call Now</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="page-title">
+      <h1>Vehicles for Sale</h1>
+      <div class="badge">Updated inventory from Bev’s Repair</div>
+    </div>
+
+    <section class="section">
+      <div class="card">
+        <div class="small">
+          Browse vehicles currently available from Bev’s Repair. Click a vehicle for full details, pricing, and more photos.
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="vehicle-grid">
+        <a class="vehicle-card" href="vehicle-example.html">
+          <img src="assets/img/gallery-1.svg" alt="Vehicle for sale" />
+          <div class="vehicle-card-content">
+            <h2>2018 Ford F-150 XLT</h2>
+            <div class="vehicle-meta">$24,900 • 186,000 km</div>
+            <p>4x4, crew cab, clean truck, ready for sale.</p>
+            <span class="btn">View Details</span>
+          </div>
+        </a>
+
+        <a class="vehicle-card" href="vehicle-example.html">
+          <img src="assets/img/gallery-2.svg" alt="Vehicle for sale" />
+          <div class="vehicle-card-content">
+            <h2>2019 Ram 1500 Classic</h2>
+            <div class="vehicle-meta">$21,500 • 198,000 km</div>
+            <p>Good condition, strong runner, call for full details.</p>
+            <span class="btn">View Details</span>
+          </div>
+        </a>
+
+        <a class="vehicle-card" href="vehicle-example.html">
+          <img src="assets/img/gallery-3.svg" alt="Vehicle for sale" />
+          <div class="vehicle-card-content">
+            <h2>2017 GMC Sierra 1500</h2>
+            <div class="vehicle-meta">$19,900 • 214,000 km</div>
+            <p>Solid truck with clean presentation and good utility.</p>
+            <span class="btn">View Details</span>
+          </div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>© <span id="year"></span> Bev’s Repair Inc.</div>
+    <div class="small">Vehicles, parts, and repair services in Manitou, MB.</div>
+  </footer>
+
+  <script src="assets/js/site.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
