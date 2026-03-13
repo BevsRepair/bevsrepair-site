@@ -270,7 +270,7 @@ ul.bullets li {
   background:rgba(255,255,255,.05);
   border:1px solid(var--line);
   border-radius:16px;
-  padding:16px;
+  padding:14px;
 }
 .mini-card h3{
   margin:0 0 6px;
@@ -355,7 +355,7 @@ ul.bullets li {
 
 .featured-vehicle img{
   width:100%;
-  height:220px;
+  height:260px;
   object-fit:cover;
   display:block;
 }
@@ -388,7 +388,7 @@ ul.bullets li {
 
 .hero-layout{
   display:grid;
-  grid-template-columns: 1fr 380px;
+  grid-template-columns: 1fr 420px;
   gap:32px;
   align-items:start;
 }
