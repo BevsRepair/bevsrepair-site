@@ -643,3 +643,115 @@ a {
     padding: 16px;
   }
 }
+/* Vehicles Page */
+.inventory-page {
+  width: min(1400px, 94%);
+  margin: 0 auto;
+  padding: 48px 0 80px;
+}
+
+.inventory-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+  align-items: stretch;
+  margin-top: 32px;
+}
+
+.vehicle-card {
+  display: flex;
+  flex-direction: column;
+  background: #181c24;
+  border: 1px solid #262d38;
+  border-radius: 14px;
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  min-height: 100%;
+}
+
+.vehicle-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+  border-color: #3a4556;
+}
+
+.vehicle-image-wrap {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  background: #0d0f13;
+}
+
+.vehicle-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.vehicle-card-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 20px;
+}
+
+.vehicle-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.vehicle-price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #d4a84f;
+  margin-bottom: 8px;
+}
+
+.vehicle-meta {
+  color: #b7beca;
+  font-size: 0.95rem;
+  margin-bottom: 14px;
+}
+
+.vehicle-description {
+  color: #d6dbe3;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.vehicle-button {
+  display: inline-block;
+  margin-top: auto;
+  align-self: flex-start;
+  background: #d4a84f;
+  color: #111;
+  font-weight: 700;
+  padding: 12px 18px;
+  border-radius: 8px;
+  transition: background 0.25s ease;
+}
+
+.vehicle-card:hover .vehicle-button {
+  background: #e2b85f;
+}
+
+@media (max-width: 1100px) {
+  .inventory-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 700px) {
+  .inventory-page {
+    width: min(95%, 100%);
+    padding: 32px 0 60px;
+  }
+
+  .inventory-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
