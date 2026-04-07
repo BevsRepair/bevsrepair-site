@@ -911,7 +911,7 @@ a {
 }
 
 /* gold accent bar */
-.review-card::top {
+.review-card::before {
   content: "";
   position: absolute;
   top: 0;
