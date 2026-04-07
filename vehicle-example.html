@@ -32,21 +32,27 @@
   <main class="container vehicle-detail-page">
     <section class="vehicle-detail-grid">
 
-      <div class="vehicle-gallery">
-        <img src="assets/img/vehicles/2019-ford-f150/4a.jpg" class="main-detail-image" />
+    <div class="vehicle-gallery">
+  <img
+    id="mainVehicleImage"
+    src="assets/img/vehicles/2019-ford-f150/4a.jpg"
+    alt="2019 Ford F-150 XLT"
+    class="main-detail-image"
+  />
 
-        <div class="thumbnail-grid">
-          <img src="assets/img/vehicles/2019-ford-f150/4b.jpg" class="thumbnail-image" />
-          <img src="assets/img/vehicles/2019-ford-f150/4c.jpg" class="thumbnail-image" />
-          <img src="assets/img/vehicles/2019-ford-f150/4d.jpg" class="thumbnail-image" />
-          <img src="assets/img/vehicles/2019-ford-f150/4e.jpg" class="thumbnail-image" />
-          <img src="assets/img/vehicles/2019-ford-f150/4f.jpg" class="thumbnail-image" />
-          <img src="assets/img/vehicles/2019-ford-f150/4g.jpg" class="thumbnail-image" />
-          <img src="assets/img/vehicles/2019-ford-f150/4h.jpg" class="thumbnail-image" />
-          <img src="assets/img/vehicles/2019-ford-f150/4i.jpg" class="thumbnail-image" />
-          <img src="assets/img/vehicles/2019-ford-f150/4j.jpg" class="thumbnail-image" />
-        </div>
-      </div>
+  <div class="thumbnail-grid">
+    <img src="assets/img/vehicles/2019-ford-f150/4a.jpg" alt="2019 Ford F-150 photo 1" class="thumbnail-image active-thumb" onclick="changeVehicleImage(this)" />
+    <img src="assets/img/vehicles/2019-ford-f150/4b.jpg" alt="2019 Ford F-150 photo 2" class="thumbnail-image" onclick="changeVehicleImage(this)" />
+    <img src="assets/img/vehicles/2019-ford-f150/4c.jpg" alt="2019 Ford F-150 photo 3" class="thumbnail-image" onclick="changeVehicleImage(this)" />
+    <img src="assets/img/vehicles/2019-ford-f150/4d.jpg" alt="2019 Ford F-150 photo 4" class="thumbnail-image" onclick="changeVehicleImage(this)" />
+    <img src="assets/img/vehicles/2019-ford-f150/4e.jpg" alt="2019 Ford F-150 photo 5" class="thumbnail-image" onclick="changeVehicleImage(this)" />
+    <img src="assets/img/vehicles/2019-ford-f150/4f.jpg" alt="2019 Ford F-150 photo 6" class="thumbnail-image" onclick="changeVehicleImage(this)" />
+    <img src="assets/img/vehicles/2019-ford-f150/4g.jpg" alt="2019 Ford F-150 photo 7" class="thumbnail-image" onclick="changeVehicleImage(this)" />
+    <img src="assets/img/vehicles/2019-ford-f150/4h.jpg" alt="2019 Ford F-150 photo 8" class="thumbnail-image" onclick="changeVehicleImage(this)" />
+    <img src="assets/img/vehicles/2019-ford-f150/4i.jpg" alt="2019 Ford F-150 photo 9" class="thumbnail-image" onclick="changeVehicleImage(this)" />
+    <img src="assets/img/vehicles/2019-ford-f150/4j.jpg" alt="2019 Ford F-150 photo 9" class="thumbnail-image" onclick="changeVehicleImage(this)" />
+  </div>
+</div>
 
       <div class="vehicle-info-box">
         <div class="detail-price">$37,399</div>
@@ -77,6 +83,19 @@
 
     </section>
   </main>
+<script>
+  function changeVehicleImage(thumbnail) {
+    const mainImage = document.getElementById("mainVehicleImage");
+    mainImage.src = thumbnail.src;
+    mainImage.alt = thumbnail.alt;
 
+    const thumbnails = document.querySelectorAll(".thumbnail-image");
+    thumbnails.forEach(function(img) {
+      img.classList.remove("active-thumb");
+    });
+
+    thumbnail.classList.add("active-thumb");
+  }
+</script>
 </body>
 </html>
