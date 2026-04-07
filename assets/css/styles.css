@@ -960,3 +960,48 @@ a {
     grid-template-columns: 1fr;
   }
 }
+/* ===== FEATURED HOME REVIEW ===== */
+
+.featured-home-review {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  background: linear-gradient(180deg, #1b2029, #14181f);
+  border: 1px solid #2c3542;
+  border-radius: 18px;
+  padding: 28px;
+  position: relative;
+}
+
+.featured-home-review::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
+  width: 100%;
+  background: #d4a84f;
+  border-radius: 18px 18px 0 0;
+}
+
+.featured-home-review .review-stars {
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+}
+
+.featured-home-review .review-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #e2e6ec;
+  margin-bottom: 16px;
+}
+
+.featured-home-review .review-name {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.featured-home-review .review-source {
+  color: #9aa3af;
+  font-size: 0.9rem;
+}
